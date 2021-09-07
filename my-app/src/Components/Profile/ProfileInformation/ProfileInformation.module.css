@@ -1,0 +1,37 @@
+.Content {
+    grid-area: content;
+    background-color: cornflowerblue;
+}
+.imgContainer{
+    width: 100%;
+    height: 200px;
+}
+.img{
+    width: 100%;
+    height: 100%;
+}
+.ProfileContentWrapper{
+    background-color: palegreen;
+}
+.imgSide{
+    width: 200px;
+    height: 200px;
+    margin-top: -100px;
+}
+.ProfileImg{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    border:3px solid cadetblue;
+
+}
+.ProfileInformation{
+    align-self: center;
+    margin:10px 0 0 0;
+    padding-bottom: 20px;
+
+}
+.ProfileInformation span{
+padding: 50px;
+font-weight: bold;
+color: black}

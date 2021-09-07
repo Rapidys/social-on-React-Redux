@@ -1,0 +1,12 @@
+.Nav {
+    grid-area: nav;
+    background-color:palegreen ;
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+}
+.Nav a{
+    padding: 25px;
+    text-decoration: none;
+    color: black;
+}

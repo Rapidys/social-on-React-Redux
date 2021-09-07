@@ -1,0 +1,38 @@
+.wrapper{
+    background-color: #ffe69f;
+    display: grid;
+    grid-template-columns: 4fr 8fr;
+
+}
+.FriendsImgs{
+    width: 80px;
+    height: 80px;
+}
+.FriendsImgs img {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+.Friends{
+    display: flex;
+    align-items: center;
+    padding: 15px;
+
+}
+.FriendsNames{
+    margin-left: 15px;
+}
+.Messages{
+    background-color: #7472ff;
+    padding: 30px;
+    font-size: 25px;
+
+}
+.Messages > div {
+    padding: 30px;
+
+}
+.FriendsSection{
+    max-height: 600px;
+    overflow-y: scroll;
+}
